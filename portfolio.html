@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fefefe;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(135deg, #ff0066, #ffcc00);
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background: #222;
+      padding: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 2rem;
+    }
+    h2 {
+      color: #ff0066;
+      margin-bottom: 1rem;
+    }
+    .skills-list span {
+      display: inline-block;
+      background: #ffcc00;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      margin: 0.3rem;
+      font-weight: bold;
+    }
+    .project-card {
+      background: #fff0f5;
+      border-left: 5px solid #ff0066;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 2px solid #ff0066;
+      border-radius: 5px;
+    }
+    form button {
+      background: #ff0066;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #222;
+      text-align: center;
+      padding: 1rem;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Fresher | Developer | Learner</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a passionate fresher eager to begin my journey in the tech world. I enjoy building colourful, bold, and interactive web designs using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Project 1</h3>
+      <p>Description of your project goes here.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project 2</h3>
+      <p>Description of another project goes here.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><a href="#">Download My Resume</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
